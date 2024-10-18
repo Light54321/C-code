@@ -10,6 +10,6 @@ void main()
     //  celing is greater integer funtion  
     printf(" celing of number:%.2lf\n",a);
     //celing is smaller integer funtion
-    // .2lf% to only 2 digit print  after decimal   
+    // .2lf% to only 2  print digit print  after decimal   
      printf(" floor of number:%.2lf\n",b);
 }
