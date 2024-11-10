@@ -2,7 +2,7 @@
  void main( )
 {
  float a,b,c;
-printf("Enter the  number a,b,c:\n");
+printf("Enter the number a,b,c:\n");
  scanf("%f%f%f",&a,&b,&c);
 if (a>b)
 {
