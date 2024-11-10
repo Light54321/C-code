@@ -5,7 +5,7 @@ void main()
 
     printf("enter the letter:\n");
     scanf("%c",&name);
-    if (name==65||name==97||name==101||name==105||name==111||name==117)
+    if (name==97||name==101||name==105||name==111||name==117)
     {
         printf("letter is vowel");
     }
