@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-int rev=0,temp,i,n,d;
+int rev=0,temp,i,n,d,result;
 printf("enter the number");
 scanf("%d",&n);
 temp=n;
@@ -20,5 +20,11 @@ else
 {
     printf("The given number is not palandrom");
 }
+
+for (i=0; i<1000 && i>99 ;i++)
+{
+  
+}
+
 
 }
