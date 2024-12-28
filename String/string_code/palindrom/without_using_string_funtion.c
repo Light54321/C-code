@@ -27,6 +27,7 @@ int main()
         }
         else
         {
+            cmp = 1;
             break;
         }
     }
