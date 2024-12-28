@@ -21,18 +21,17 @@ int main()
     // strcmp
     for (int i = 0; s_1[i] != '\0'; i++)
     {
-        if (s_1[i] == s_2[i])
+        if (s_2[i] == s_1[i])
         {
             cmp = 0;
         }
         else
         {
-            cmp = 1;
             break;
         }
     }
 
-    if (cmp = 0)
+    if (cmp == 0)
     {
         printf("String is plandrom");
     }
