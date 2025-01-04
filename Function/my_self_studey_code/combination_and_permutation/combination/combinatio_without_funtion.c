@@ -2,9 +2,9 @@
 int main()
 {
     int n, r,a=1, b=1, c=1, combination;
-    printf("Enter the value of n\n");
+    printf("Enter the value of n :\n");
     scanf("%d", &n);
-    printf("Enter the value of r\n");
+    printf("Enter the value of r :\n");
     scanf("%d", &r);
     for (int i = 1; i <= n; i++)
     {
