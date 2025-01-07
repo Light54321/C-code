@@ -10,6 +10,6 @@ int main()
     {
         l = l + 1;
     }
-    printf("The lemgth of givem string is:%d", l);
+    printf("The lemgth of givem string is :%d", l);
     return 0;
 }
