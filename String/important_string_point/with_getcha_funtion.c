@@ -7,7 +7,7 @@ int main()
     for (int i = 0; i < 10; i++)
     {
         scanf("%c", &str[i]);
-        char ch = getchar();
+         getchar();
     }
     printf("The 7th chR is %c", str[6]);
     return 0;
