@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    background-color: wheat; 
+    color: #333;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 20px; 
+    color: #a00000;
+}
+
+.post {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 25px;
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.user,
+.content {
+    margin-bottom: 15px;
+}
+
+.user {
+    font-weight: 600;
+    color: #a00000;
+}
+
+.content {
+    font-size: 1.1rem; 
+    line-height: 1.6;
+}

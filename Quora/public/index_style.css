@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    transform: scale(1);
+    transform-origin: top left;
+    overflow: auto;
+    background-color: wheat;
+  }
+  
+  h1 {
+    margin: 8px 0;
+    color: #a00000;
+    background-image: linear-gradient(to right, #B92B27, #B92B27);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 720;
+    text-align: center;
+    font-size: 3.2em;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .post {
+    border: 0.8px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 12px;
+    background-color: #f5f5f5;
+  }
+  
+  .user {
+    margin-bottom: 4px;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .content {
+    margin-bottom: 8px;
+  }
+  
+  button {
+    background-color: #d00000;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin: 4px;
+  }
+  
+  button:hover {
+    background-color: #a00000;
+  }
+  
+  .new-post {
+    width: auto;
+    max-width: 16rem;
+    background-color: #d00000;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 15px;
+    font-size: 1.05rem;
+  }
+  
+  /* Style for links inside buttons */
+  button a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Media queries for smaller screens (Mobile) */
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 3em;
+      margin-bottom: 2rem; /* Added margin below h1 */
+    }
+  
+    .post {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+    }
+    .content {
+      line-height: 1.5;
+    }
+    .new-post {
+      margin-left: auto;
+      margin-right: 0;
+      display: block;
+      width: auto;
+      max-width: 90%;
+      box-sizing: border-box;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  /* Media query for larger screens (Laptop and up) */
+  @media only screen and (min-width: 769px) {
+    .new-post {
+      margin-left: auto;
+      margin-right: 0;
+      display: block;
+      width: auto;
+      max-width: 19.2rem;
+    }
+  }
+  
+  form button {
+    background-color: #d00000;
+  }
+  
+  form button:hover {
+    background-color: #a00000;
+  }

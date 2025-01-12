@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="/new_style.css">
+</head>
+<body>
+    <h1>Create a new Post</h1>
+    <div>
+        <form method="post" action="/posts/new">
+            <label for="username">Username: </label>
+            <input autocomplete="off" autofocus type="text" name="username" id="username">
+            <br><br>
+            <label for="content">Content: <br></label>
+            <textarea autocomplete="off" name="content" id="content" cols="30" rows="10"></textarea>
+            <br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
